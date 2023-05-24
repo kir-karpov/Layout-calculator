@@ -128,7 +128,7 @@ const appData = {
     totalCountOther.value = (
       this.servicePricesPercent + this.servicePricesNumber
     ).toString();
-    document.getElementById("total-count").value = this.screens.length;
+
     totalCountRollback.value = this.getRollbackMessage(this.fullPrice);
   },
 
